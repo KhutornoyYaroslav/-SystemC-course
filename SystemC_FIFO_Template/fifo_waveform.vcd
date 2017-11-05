@@ -1,0 +1,217 @@
+$date
+     Jun 22, 2017       23:45:12
+$end
+
+$version
+ SystemC 2.3.1-Accellera --- Feb 21 2017 23:45:35
+$end
+
+$timescale
+     1 ps
+$end
+
+$scope module SystemC $end
+$var wire    1  aaaaa  clock       $end
+$var wire    1  aaaab  sreset_n       $end
+$var wire   32  aaaac  data_in [31:0]  $end
+$var wire   32  aaaad  data_out [31:0]  $end
+$var wire    1  aaaae  push       $end
+$var wire    1  aaaaf  pop       $end
+$var wire    1  aaaag  empty       $end
+$var wire    1  aaaah  full       $end
+$upscope $end
+$enddefinitions  $end
+
+$comment
+All initial values are dumped below at time 0 sec = 0 timescale units.
+$end
+
+$dumpvars
+1aaaaa
+0aaaab
+b0 aaaac
+b0 aaaad
+0aaaae
+0aaaaf
+1aaaag
+0aaaah
+$end
+
+#2500
+0aaaaa
+
+#5000
+1aaaaa
+1aaaab
+
+#7500
+0aaaaa
+
+#9000
+b1100001 aaaac
+1aaaae
+
+#10000
+1aaaaa
+0aaaag
+
+#12500
+0aaaaa
+
+#14000
+b1100010 aaaac
+
+#15000
+1aaaaa
+
+#17500
+0aaaaa
+
+#19000
+b1100011 aaaac
+
+#20000
+1aaaaa
+
+#22500
+0aaaaa
+
+#24000
+b1100100 aaaac
+
+#25000
+1aaaaa
+
+#27500
+0aaaaa
+
+#29000
+b1100101 aaaac
+
+#30000
+1aaaaa
+1aaaah
+
+#32500
+0aaaaa
+
+#34000
+b1100110 aaaac
+
+#35000
+1aaaaa
+
+#37500
+0aaaaa
+
+#39000
+0aaaae
+1aaaaf
+
+#40000
+1aaaaa
+b1100001 aaaad
+0aaaah
+
+#42500
+0aaaaa
+
+#45000
+1aaaaa
+b1100010 aaaad
+
+#47500
+0aaaaa
+
+#50000
+1aaaaa
+b1100011 aaaad
+
+#52500
+0aaaaa
+
+#55000
+1aaaaa
+b1100100 aaaad
+
+#57500
+0aaaaa
+
+#60000
+1aaaaa
+b1100101 aaaad
+1aaaag
+
+#62500
+0aaaaa
+
+#65000
+1aaaaa
+
+#67500
+0aaaaa
+
+#69000
+1aaaae
+0aaaaf
+
+#70000
+1aaaaa
+0aaaag
+
+#72500
+0aaaaa
+
+#74000
+b1100111 aaaac
+1aaaaf
+
+#75000
+1aaaaa
+b1100110 aaaad
+
+#77500
+0aaaaa
+
+#79000
+b1101000 aaaac
+
+#80000
+1aaaaa
+b1100111 aaaad
+
+#82500
+0aaaaa
+
+#84000
+b1101001 aaaac
+
+#85000
+1aaaaa
+b1101000 aaaad
+
+#87500
+0aaaaa
+
+#89000
+b1101010 aaaac
+
+#90000
+1aaaaa
+b1101001 aaaad
+
+#92500
+0aaaaa
+
+#94000
+b1101011 aaaac
+0aaaae
+
+#95000
+1aaaaa
+b1101010 aaaad
+1aaaag
+
+#97500
+0aaaaa
+
